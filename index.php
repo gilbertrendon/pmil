@@ -6,17 +6,6 @@
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
 </head>
 <body>
-<!-- <?php
-// $Name = $LName = "";
-// if($_SERVER["REQUEST_METHOD"] == "POST"){
-//     if(empty($POST["Name"])){
-//         $nombreErr="El nombre es obligatorio";
-//     }else{
-//         $Name=test_input()
-//     }
-// }
-?> -->
-
 
      <!-- back.php -->
     <form action="" id="Formajax">
@@ -32,9 +21,7 @@
 <script>
     //console.log("asdf");
     // $(document).ready(function(){
-
     // });
-    
     $('#Enviar').click(function(){
         $.ajax({
             url: 'back.php',
