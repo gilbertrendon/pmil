@@ -8,5 +8,5 @@ La tabla se llama user, columnas id,Name,LName respectivamente son id único, no
 # query
 id es llave primaria autoincremental y se genera automáticamente
 
-"CREATE TABLE IF NO EXISTS `pmil`.`user` ( `id` INT NOT NULL AUTO_INCREMENT , `Name` VARCHAR(100) NOT NULL , `LName` VARCHAR(100) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;";
+"CREATE TABLE IF NO EXISTS `pmil`.`user` ( `id` INT NOT NULL AUTO_INCREMENT , `Name` VARCHAR(100) NOT NULL , `LName` VARCHAR(100) NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;"
 
