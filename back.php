@@ -1,10 +1,11 @@
 <?php
 $con=mysqli_connect("localhost", "root", "", "pmil");
-$Nom=$_POST['Name'];
-$Ape=$_POST['LName'];
+$Nam=$_POST['Name'];
+$LName=$_POST['LName'];
 
-$Insert=mysqli_query($con,"INSERT INTO `User`(`id`, `Name`, `LName`) VALUES ('','$Name','LName')");
-
+$query="INSERT INTO `user`(`id`, `Name`, `LName`) VALUES (NULL,'$Nam','$LName')";
+$Insert=mysqli_query($con,$query);
+//echo $query;
 if($Insert){
     echo "Se registró correctamente";
 }else{
